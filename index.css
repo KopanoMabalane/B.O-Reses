@@ -17,4 +17,7 @@ img {
         width: 100%;
         display:inline-block;
     }
+    #title {
+        font-size: 25px;
+    }
 }
