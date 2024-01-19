@@ -1,0 +1,20 @@
+img {
+    width: 400px;
+    margin: 30px;
+}
+.imgc {
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
+#title {
+    font-size: 50px;
+}
+@media (max-width:1000px) {
+    img {
+        width: 100%;
+    }
+    .imgc {
+        width: 100%;
+        display:inline-block;
+    }
+}
